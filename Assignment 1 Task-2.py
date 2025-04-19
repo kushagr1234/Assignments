@@ -1,6 +1,9 @@
 #Greeting someone
 
-x=input("Enter your prestigious first name:\t")
-y=input("Enter your prestigious second name:\t")
+F_N = input("Enter your first name: ")
 
-print("Hello,",x+y,'!'"Welcome to the python world")
+L_N = input("Enter your last name: ")
+
+Full_N = F_N + " " + L_N
+
+print("Hello, " + Full_N + "!" +" Welcome to the python program")
